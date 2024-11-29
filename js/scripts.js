@@ -163,7 +163,7 @@ class CVTerminal {
   }
 
   writePrompt() {
-    this.terminal.write(prompt());
+    this.terminal.write(this.terminal.prompt());
   }
 
   handleCommand() {
