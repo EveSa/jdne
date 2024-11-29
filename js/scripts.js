@@ -39,7 +39,7 @@ class CVTerminal {
   writeWelcomeMessage() {
     // this.terminal.writeln("Hello There...");
     this.terminal.writeln("Type 'help' to see available commands.");
-    this.prompt();
+    this.writePrompt();
   }
 
   initializeProperties() {
@@ -163,7 +163,7 @@ class CVTerminal {
   }
 
   writePrompt() {
-    this.terminal.write(this.prompt);
+    this.terminal.write(prompt());
   }
 
   handleCommand() {
