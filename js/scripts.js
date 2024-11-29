@@ -113,7 +113,7 @@ class CVTerminal {
     }
     if (this.isAnimating) return;
 
-    switch (domEvent.key) {
+    switch (domEvent.keypress) {
       case KEYCODE.Backspace:
         this.handleBackspace();
         break;
