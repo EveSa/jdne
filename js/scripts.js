@@ -74,7 +74,7 @@ class CVTerminal {
   }
 
   registerEvents() {
-    this.terminal.onData((event) => this.handleKeyEvent(event));
+    this.terminal.onKey((event) => this.handleKeyEvent(event));
     window.addEventListener("resize", () => this.fitTerminal());
 
     document.addEventListener("click", (event) => {
