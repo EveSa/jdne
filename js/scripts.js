@@ -39,7 +39,7 @@ class CVTerminal {
   writeWelcomeMessage() {
     // this.terminal.writeln("Hello There...");
     this.terminal.writeln("Type 'help' to see available commands.");
-    this.writePrompt();
+    this.prompt();
   }
 
   initializeProperties() {
@@ -74,7 +74,7 @@ class CVTerminal {
   }
 
   registerEvents() {
-    this.terminal.onKeyPress((event) => this.handleKeyEvent(event));
+    this.terminal.onKey((event) => this.handleKeyEvent(event));
     window.addEventListener("resize", () => this.fitTerminal());
 
     document.addEventListener("click", (event) => {
