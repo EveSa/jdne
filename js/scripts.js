@@ -157,13 +157,13 @@ class CVTerminal {
   }
 
   handleInput(key) {
-  //  this.terminal.write(key);
+    this.terminal.write(key);
     this.command += key;
     this.cursorX++;
   }
 
   writePrompt() {
-    this.terminal.write(this.prompt());
+    this.terminal.write(this.prompt);
   }
 
   handleCommand() {
