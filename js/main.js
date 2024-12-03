@@ -82,11 +82,17 @@ function commander(cmd) {
     case "help":
       loopLines(help, "color2 margin", 80);
       break;
-    case "whois":
-      loopLines(whois, "color2 margin", 80);
+    case "ls":
+      loopLines(ls, "color2 margin", 80);
       break;
-    case "whoami":
-      loopLines(whoami, "color2 margin", 80);
+    case "cat next.md":
+      loopLines(catnext, "color2 margin", 80);
+      break;
+    case "cat chiffre.md":
+      loopLines(catchiffre, "color2 margin", 80);
+      break;
+    case "4":
+      loopLines(code, "color2 margin", 80);
       break;
     case "video":
       addLine("Opening YouTube...", "color2", 80);
