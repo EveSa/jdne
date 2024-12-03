@@ -11,18 +11,12 @@ ls = [
   "chiffré.md"
 ];
 
-"cat next.md" = [
+catnext = [
   "lieu de vie"
 ];
 
-social = [
-  "<br>",
-  'youtube        <a href="' + youtube + '" target="_blank">youtube/fknight' + "</a>",
-  'twitter        <a href="' + twitter + '" target="_blank">twitter/forrestpknight' + '</a>',
-  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/forrestpknight' + "</a>",
-  'instagram      <a href="' + instagram + '" target="_blank">instagram/forrestpknight' + '</a>',
-  'github         <a href="' + github + '" target="_blank">github/forrestknight' + "</a>",
-  "<br>"
+catchiffre = [
+  "cesfo"
 ];
 
 secret = [
@@ -54,18 +48,19 @@ help = [
 ];
 
 banner = [
-  '<span class="index">ForrestKnight (FK) Not A Corporation. All knights reserved.</span>',
-  "         ___   ____",
-  "       /' --;^/ ,-_\\     \\ | /       ",
-  "      / / --o\\ o-\\ \\\\   --(_)--   ",
-  "     /-/-/|o|-|\\-\\\\|\\\\   / | \\   ______                          __     __ __       _       __    __   ",
-  "      '`  ` |-|   `` '          / ____/___  _____________  _____/ /_   / //_/____  (_)___ _/ /_  / /_ ",
-  "            |-|                / /_  / __ \\/ ___/ ___/ _ \\/ ___/ __/  / ,<  / __ \\/ / __ `/ __ \\/ __/ ",
-  "            |-|O              / __/ / /_/ / /  / /  /  __(__  ) /_   / /| |/ / / / / /_/ / / / / /_  ",
-  "            |-(\\,__          /_/    \\____/_/  /_/   \\___/____/\\__/  /_/ |_/_/ /_/_/\\__, /_/ /_/\\__/ ",
-  "         ...|-|\\--,\\_....                                                         /____/    © 2022",
-  "      ,;;;;;;;;;;;;;;;;;;;;;;;;,.   ",
-  "~~,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+  '<span class="index">Bureau Des Doctorants (BDD) Not A Corporation. All rights reserved.</span>',
+"                _                                              _                                      ",
+"               | |                                            | |                                     ",
+"               | |  ___   _   _  _ __  _ __    ___   ___    __| |  ___  ___                           ",
+"           _   | | / _ \ | | | || '__|| '_ \  / _ \ / _ \  / _` | / _ \/ __|                          ",
+"          | |__| || (_) || |_| || |   | | | ||  __/|  __/ | (_| ||  __/\__ \                          ",
+"           \____/  \___/  \__,_||_|   |_| |_| \___| \___|  \__,_| \___||___/                          ",
+"                                                                     _                       _        ",
+"                                                                    | |                     | |       ",
+"  _ __    ___   _   _ __   __ ___   __ _  _   _ __  __   ___  _ __  | |_  _ __  __ _  _ __  | |_  ___ ",
+" | '_ \  / _ \ | | | |\ \ / // _ \ / _` || | | |\ \/ /  / _ \| '_ \ | __|| '__|/ _` || '_ \ | __|/ __|",
+" | | | || (_) || |_| | \ V /|  __/| (_| || |_| | >  <  |  __/| | | || |_ | |  | (_| || | | || |_ \__ \",
+" |_| |_| \___/  \__,_|  \_/  \___| \__,_| \__,_|/_/\_\  \___||_| |_| \__||_|   \__,_||_| |_| \__||___/",
   '<span class="color2">Welcome to my interactive web terminal.</span>',
   "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
 ];
