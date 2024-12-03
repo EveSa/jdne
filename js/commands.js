@@ -6,17 +6,37 @@ var instagram = "https://www.instagram.com/forrestpknight/";
 var github = "https://github.com/forrestknight/";
 var email = 'mailto:forrest@fkcodes.com';
 
-ls = [
-  "next.md",
-  "chiffré.md"
+whois = [
+  "<br>",
+  "Hey, I'm Forrest!👋",
+  "I'm a software engineer and content creator, who builds engaging websites like this one",
+  "and makes YouTube videos about computer science & software engineering.",
+  "After graduating with a Bachelor's in Computer Science, I worked professionally",
+  "as a software engineer building enterprise web applications for Fortune 500 companies.",
+  "While doing all of that, I documented my coding journey on YouTube - trying to enlighten",
+  "the next generation of developers and help them navigate the crazy world that is software", "engineering & computer science.",
+  "Before I knew it, that online presence took on a life of its own, to the point where I knew",
+  "I needed to make the jump from software engineering to full time content creation - strike while",
+  "the iron's hot.",
+  "Now, I make videos about software engineering and computer science, building anything my heart desires,",
+  "like this terminal website.",
+  "<br>"
 ];
 
-catnext = [
-  "lieu de vie"
+whoami = [
+  "<br>",
+  "The paradox of “Who am I?” is: we never know, but, we constantly find out.",
+  "<br>"
 ];
 
-catchiffre = [
-  "cesfo"
+social = [
+  "<br>",
+  'youtube        <a href="' + youtube + '" target="_blank">youtube/fknight' + "</a>",
+  'twitter        <a href="' + twitter + '" target="_blank">twitter/forrestpknight' + '</a>',
+  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/forrestpknight' + "</a>",
+  'instagram      <a href="' + instagram + '" target="_blank">instagram/forrestpknight' + '</a>',
+  'github         <a href="' + github + '" target="_blank">github/forrestknight' + "</a>",
+  "<br>"
 ];
 
 secret = [
@@ -48,19 +68,18 @@ help = [
 ];
 
 banner = [
-  '<span class="index">Bureau Des Doctorants (BDD) Not A Corporation. All rights reserved.</span>',
-  "                _                                              _                                      ",
-  "               | |                                            | |                                     ",
-  "               | |  ___   _   _  _ __  _ __    ___   ___    __| |  ___  ___                           ",
-  "           _   | | / _ \ | | | || '__|| '_ \  / _ \ / _ \  / _` | / _ \/ __|                          ",
-  "          | |__| || (_) || |_| || |   | | | ||  __/|  __/ | (_| ||  __/\__ \                          ",
-  "           \____/  \___/  \__,_||_|   |_| |_| \___| \___|  \__,_| \___||___/                          ",
-  "                                                                     _                       _        ",
-  "                                                                    | |                     | |       ",
-  "  _ __    ___   _   _ __   __ ___   __ _  _   _ __  __   ___  _ __  | |_  _ __  __ _  _ __  | |_  ___ ",
-  " | '_ \  / _ \ | | | |\ \ / // _ \ / _` || | | |\ \/ /  / _ \| '_ \ | __|| '__|/ _` || '_ \ | __|/ __|",
-  " | | | || (_) || |_| | \ V /|  __/| (_| || |_| | >  <  |  __/| | | || |_ | |  | (_| || | | || |_ \__ \",
-  " |_| |_| \___/  \__,_|  \_/  \___| \__,_| \__,_|/_/\_\  \___||_| |_| \__||_|   \__,_||_| |_| \__||___/",
+  '<span class="index">ForrestKnight (FK) Not A Corporation. All knights reserved.</span>',
+  "         ___   ____",
+  "       /' --;^/ ,-_\\     \\ | /       ",
+  "      / / --o\\ o-\\ \\\\   --(_)--   ",
+  "     /-/-/|o|-|\\-\\\\|\\\\   / | \\   ______                          __     __ __       _       __    __   ",
+  "      '`  ` |-|   `` '          / ____/___  _____________  _____/ /_   / //_/____  (_)___ _/ /_  / /_ ",
+  "            |-|                / /_  / __ \\/ ___/ ___/ _ \\/ ___/ __/  / ,<  / __ \\/ / __ `/ __ \\/ __/ ",
+  "            |-|O              / __/ / /_/ / /  / /  /  __(__  ) /_   / /| |/ / / / / /_/ / / / / /_  ",
+  "            |-(\\,__          /_/    \\____/_/  /_/   \\___/____/\\__/  /_/ |_/_/ /_/_/\\__, /_/ /_/\\__/ ",
+  "         ...|-|\\--,\\_....                                                         /____/    © 2022",
+  "      ,;;;;;;;;;;;;;;;;;;;;;;;;,.   ",
+  "~~,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
   '<span class="color2">Welcome to my interactive web terminal.</span>',
   "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
 ];
