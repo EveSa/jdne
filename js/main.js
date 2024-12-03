@@ -89,7 +89,7 @@ function commander(cmd) {
       loopLines(catnext, "color2 margin", 80);
       break;
     case "cat chiffré.md":
-      loopLines(catchiffré, "color2 margin", 80);
+      loopLines(catchiffre, "color2 margin", 80);
       break;
     case "sudo":
       addLine("Oh no, you're not admin...", "color2", 80);
