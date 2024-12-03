@@ -82,20 +82,24 @@ function commander(cmd) {
     case "help":
       loopLines(help, "color2 margin", 80);
       break;
-    case "ls":
-      loopLines(ls, "color2 margin", 80);
+    case "whois":
+      loopLines(whois, "color2 margin", 80);
       break;
-    case "cat next.md":
-      loopLines(catnext, "color2 margin", 80);
+    case "whoami":
+      loopLines(whoami, "color2 margin", 80);
       break;
-    case "cat chiffré.md":
-      loopLines(catchiffre, "color2 margin", 80);
+    case "video":
+      addLine("Opening YouTube...", "color2", 80);
+      newTab(youtube);
       break;
     case "sudo":
       addLine("Oh no, you're not admin...", "color2", 80);
       setTimeout(function() {
         window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
       }, 1000); 
+      break;
+    case "social":
+      loopLines(social, "color2 margin", 80);
       break;
     case "secret":
       liner.classList.add("password");
@@ -124,6 +128,27 @@ function commander(cmd) {
       break;
     case "banner":
       loopLines(banner, "", 80);
+      break;
+    // socials
+    case "youtube":
+      addLine("Opening YouTube...", "color2", 80);
+      newTab(youtube);
+      break;
+    case "twitter":
+      addLine("Opening Twitter...", "color2", 0);
+      newTab(twitter);
+      break;
+    case "linkedin":
+      addLine("Opening LinkedIn...", "color2", 0);
+      newTab(linkedin);
+      break;
+    case "instagram":
+      addLine("Opening Instagram...", "color2", 0);
+      newTab(instagram);
+      break;
+    case "github":
+      addLine("Opening GitHub...", "color2", 0);
+      newTab(github);
       break;
     default:
       addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
