@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            "use strict";
+            function check_value(){
+                var input_field = document.getElementById("input_number");
+                var img = document.getElementById("img_result");
+                if(input_field.value == "8"){
+                    console.log("correct");
+                    img.style.display = "block";
+                } else {
+                    console.log("incorrect");
+                    img.style.display = "none";
+                }
+            }
+            
+        </script>
+        <input id="input_number" value="" onchange="check_value()" />
+        <img id="img_result" src="img.png" style="display:none"/>
+    </body>
+</html>
