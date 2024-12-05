@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head></head>
-    <body>
+    <body style="margin:0px;padding:0px;content:center;text-content:center;background-color:#000000;color:#ffffff">
         <script>
             "use strict";
             function check_value(){
                 var input_field = document.getElementById("input_number");
-                var img = document.getElementById("img_result");
+                var div = document.getElementById("div_success");
                 if(input_field.value == "8"){
                     console.log("correct");
-                    img.style.display = "block";
+                    div.style.display = "block";
+                    input_field.style.display = "none";
                 } else {
                     console.log("incorrect");
-                    img.style.display = "none";
+                    div.style.display = "none";
                 }
             }
             
         </script>
         <input id="input_number" value="" onchange="check_value()" />
-        <img id="img_result" src="img.png" style="display:none"/>
+        <div id="div_success" style="display:none;content:center;text-align:center">
+            <img id="img_result" src="img.png" />
+            <h1 style="color:#ffffff">Maintenant tracez votre parcours, vos pas forment un code</h1>
+            <img src="bird.png" />
+        </div>
     </body>
 </html>
